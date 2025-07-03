@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precentage Calc</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="light">
+    <header>
+      <article class="logo"></article>
+      <article id ="icon" class="  moon"></article>
+    </header>
+    <main class="main light_con">
+        <article class="one">
+            <div class="precentage">
+              
+                <p class="text">Percentage: <span class="pre_icon"></span></p>
+                <input type="text" id="percentage">
+                <p class="error">Can't be empty </p>
+            </div>
+            <div class="sum">
+                 <p class="text">Sum: <span class="sum_icon"></span></p>
+                <input type="text" id="sum">
+                <p class="error">Can't be empty </p>
+            </div>
+            <div class="calc">
+                <button class=" btn btn_calc">Calculate</button>
+            </div>
+        </article>
+        <article class="two">
+          <p class="res">Result:</p>  
+          <div class="res_con">
+            <div class="icon_money_sign"></div>
+            <div class="result">0.00</div>
+          </div>
+          <div class="reset_con">
+             <button class=" btn " id="btn_res">Reset</button>
+          </div>
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
