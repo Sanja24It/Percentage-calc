@@ -47,7 +47,7 @@ icon.addEventListener("click", function(){
    localStorage.setItem("mainBg","light_con");
  }
   
-       main_con.style.background = "linear-gradient(#3effd4,#00b4ff,#3262ff)"
+       main_con.style.background = "linear-gradient(#7226ff,#160078,#010030)"
         
 
   }
