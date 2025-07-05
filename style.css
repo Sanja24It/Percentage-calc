@@ -66,7 +66,7 @@ background-image: url(./images/sun-color.svg);
    gap: 2rem;
 }
 .light_con{
-   background: linear-gradient(#3effd4,#00b4ff,#3262ff);
+    background: linear-gradient(#7226ff,#160078,#010030);
     width: 30rem;
    border-radius: 1.2rem;
    padding: 1rem 2rem;
@@ -241,7 +241,7 @@ align-items: end;
  
 }
 
-@media screen and (min-width: 23.438em) and (max-width:36.25em){
+@media screen and (max-width:36.25em){
     header{
         width: 80%;
     }
@@ -252,9 +252,10 @@ align-items: end;
      width: 80%;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 1rem;}
+        gap: 1rem;
+    }
 .light_con{
-   background: linear-gradient(#3effd4,#00b4ff,#3262ff);
+ background: linear-gradient(#7226ff,#160078,#010030);
     width: 80%;
         display: grid;
         grid-template-columns: 1fr;
